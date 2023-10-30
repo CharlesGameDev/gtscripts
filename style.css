@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: gray;
+}
+
+.scripts {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: auto;
+    width: 90%;
+}
+
+.script-button {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: fit-content;
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.script-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.script-button img {
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+}
